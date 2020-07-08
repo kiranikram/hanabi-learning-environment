@@ -31,8 +31,7 @@ class Agent:
                  game_comm_bits = 1,
                  momentum = 0.05,
                  batch_size = 32,
-                 current_player,
-                 num_actions,
+                 num_actions = None,
                  gamma = 1,
                  step_target = 100
                  ):
